@@ -10,9 +10,9 @@ let answer;
 
 button.onclick=function(){
     
-    document.getElementById("h3").textContent="Are you sure?";
+    document.getElementById("h3").textContent="Are you sure boo?";
     button.onclick=function(){
-        document.getElementById('h3').textContent="Congratulations ,you are now married";
+        document.getElementById('h3').textContent="Congratulations ,we are now married boo!!!";
         button.remove();
         button1.remove();
         img.remove();
@@ -30,11 +30,11 @@ button.onclick=function(){
     
 }
 button1.onclick=function(){
-    document.getElementById("h3").textContent="Why? "
+    document.getElementById("h3").textContent="Why boo? "
     img.remove();
     please.style.visibility='visible';
     button1.onclick=function(){
-        document.getElementById("h3").textContent="Why? click on yes"
+        document.getElementById("h3").textContent="Why? click on yes boo"
         button1.onclick=function(){
             document.getElementById("h3").textContent=" click on yes,now"
             button1.onclick=function(){

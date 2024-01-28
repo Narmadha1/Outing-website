@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(188, 180, 178);
+}
+#h3{
+    text-align: center;
+    margin-top: 300px;
+    color: white;
+    font-size: 30px;
+}
+
+#buttons{
+  
+    text-align: center;
+    
+
+}
+.butt{
+    background-color:lightcoral;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 10px;
+    font-size: 15px;
+
+
+}
+#img{
+    margin-top:79px;
+    margin-right:0px;
+    right:0px;
+    bottom:0px;
+    width:170px;
+    position: fixed;
+}
+
+#img1{
+
+    
+    height: 200px;
+
+    top:0px;
+    left:0px;
+    position :fixed;
+
+   
+}
+
+#gif{
+     margin-left:350px;
+     margin-top:-150px;
+     position:static;
+     
+}
+.butt:hover{
+    background-color: crimson;
+}
+
+#please{
+
+    visibility: hidden;
+    margin-left:400px;
+    margin-top: -200px;
+    margin-bottom: 100px;
+    position:fixed;
+}
+#finalimg{
+
+    visibility: hidden;
+    align-items: center;
+    margin-left: 45%;
+    position: fixed;
+}

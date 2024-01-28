@@ -1,6 +1,17 @@
 body{
     background-color: rgb(188, 180, 178);
+    height: 100%;
+    margin:0;
 }
+.bg-image{
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    opacity: 0.8;
+    }
+
 #h3{
     text-align: center;
     margin-top: 300px;
@@ -45,8 +56,7 @@ body{
 }
 
 #gif{
-     margin-left:350px;
-     margin-top:-150px;
+      margin-left: 50%;
      position:static;
      
 }
@@ -57,9 +67,9 @@ body{
 #please{
 
     visibility: hidden;
-    margin-left:400px;
-    margin-top: -200px;
-    margin-bottom: 100px;
+    margin-left: 20%;
+    margin-top: 0%;
+    
     position:fixed;
 }
 #finalimg{
@@ -68,4 +78,16 @@ body{
     align-items: center;
     margin-left: 45%;
     position: fixed;
+}
+
+#celeb{
+
+    visibility: hidden;
+    
+    margin-top: -300px;;
+    margin-left:600px;
+    margin-bottom: 300px;
+    margin-right: 50%;
+    
+    position: static;
 }

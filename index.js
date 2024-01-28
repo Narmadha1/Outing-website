@@ -3,6 +3,9 @@ const button1=document.getElementById("no");
 let img=document.getElementById("gif");
 let please=document.getElementById("please");
 let final=document.getElementById("finalimg");
+let cel=document.getElementById("celeb");
+let bc=document.getElementById("bc");
+const bgImage = document.querySelector('.bg-image');
 let answer;
 
 button.onclick=function(){
@@ -15,6 +18,10 @@ button.onclick=function(){
         img.remove();
         please.remove();
         final.style.visibility='visible';
+        cel.style.visibility='visible';
+        bc.style.backgroundColor="lightcoral";
+        bgImage.style.backgroundImage.visibility='visible';
+        bgImage.style.backgroundImage ="url('Falling\ Confetti\ Happy\ Birthday\ Gif\ Pictures\,\ Photos\,\ And\ Images\ For\ \ DDE.gif')";
         
         
         
